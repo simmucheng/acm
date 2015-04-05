@@ -1,0 +1,26 @@
+xx1 = 0
+xx = 1 yy = 12 va = 12
+xx = 2 yy = 12 va = 14
+xx = 3 yy = 22 va = 17
+xx1 = 3
+xx1 = 2
+xx1 = 0
+xx1 = 1
+xx1 = 3
+xx1 = 1
+xx1 = 2
+xx1 = 0
+xx1 = 0
+xx = 1 yy = 11 va = 7
+xx = 2 yy = 11 va = 9
+xx = 3 yy = 21 va = 12
+xx1 = 3
+xx1 = 2
+xx = 3 yy = 22 va = 21
+xx1 = 3
+xx1 = 0
+xx1 = 1
+xx1 = 2
+xx1 = 3
+xx1 = 1
+xx1 = 0
