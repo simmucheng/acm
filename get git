@@ -1,0 +1,70 @@
+sinon@sinon-Aspire-4750:~$ git config --global user.name "xiammu"
+sinon@sinon-Aspire-4750:~$ git config --global user.email "605907914@qq.com"
+sinon@sinon-Aspire-4750:~$ git init acm
+重新初始化现存的 Git 版本库于 /home/sinon/acm/.git/
+sinon@sinon-Aspire-4750:~$ cd acm
+sinon@sinon-Aspire-4750:~/acm$ gedit youknow
+sinon@sinon-Aspire-4750:~/acm$ git add youknow
+sinon@sinon-Aspire-4750:~/acm$ git commit -m "fff"
+[master 52ccf2a] fff
+ 1 file changed, 1 insertion(+)
+ create mode 100644 youknow
+sinon@sinon-Aspire-4750:~/acm$ git remote add origin git@github.com:xiammu/acm.git
+fatal: 远程 origin 已经存在。
+sinon@sinon-Aspire-4750:~/acm$ git remote add origin http://github.com/xiammu/acm
+fatal: 远程 origin 已经存在。
+sinon@sinon-Aspire-4750:~/acm$ git remote rm origin
+sinon@sinon-Aspire-4750:~/acm$ git remote add origin http://github.com/xiammu/acm
+sinon@sinon-Aspire-4750:~/acm$ git push origin master
+Username for 'https://github.com': xiammu
+Password for 'https://xiammu@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 450 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To http://github.com/xiammu/acm
+ * [new branch]      master -> master
+sinon@sinon-Aspire-4750:~/acm$ git add 1.c
+sinon@sinon-Aspire-4750:~/acm$ git commit -m  "fff"
+[master e9dee51] fff
+ 1 file changed, 17 insertions(+)
+ create mode 100644 1.c
+sinon@sinon-Aspire-4750:~/acm$ get remote add origin http://github.com/xiammu/acm
+未找到 'get' 命令，有19 个相似命令
+get：未找到命令
+sinon@sinon-Aspire-4750:~/acm$ git remote add origin http://github.com/xiammu/acm
+fatal: 远程 origin 已经存在。
+sinon@sinon-Aspire-4750:~/acm$ git remote rm origin
+sinon@sinon-Aspire-4750:~/acm$ git remote add origin http://github.com/xiammu/acm
+sinon@sinon-Aspire-4750:~/acm$ git push origin master
+Username for 'https://github.com': xiammu
+Password for 'https://xiammu@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 460 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To http://github.com/xiammu/acm
+   52ccf2a..e9dee51  master -> master
+sinon@sinon-Aspire-4750:~/acm$ git add get git
+fatal: 路径规则 'get' 未匹配任何文件
+sinon@sinon-Aspire-4750:~/acm$ git add .
+sinon@sinon-Aspire-4750:~/acm$ git commit -m "fff"
+[master a6f3389] fff
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 get git
+sinon@sinon-Aspire-4750:~/acm$ git remote add origin http://github.com/xiammu/acm
+fatal: 远程 origin 已经存在。
+sinon@sinon-Aspire-4750:~/acm$ git remote rm origin
+sinon@sinon-Aspire-4750:~/acm$ git remote add origin http://github.com/xiammu/acm
+sinon@sinon-Aspire-4750:~/acm$ git push origin master
+Username for 'https://github.com': xiammu
+Password for 'https://xiammu@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To http://github.com/xiammu/acm
+   e9dee51..a6f3389  master -> master
